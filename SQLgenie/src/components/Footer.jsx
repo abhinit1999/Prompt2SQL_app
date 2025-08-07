@@ -19,7 +19,9 @@ export default function Footer() {
           <Link to="/" className="text-gray-400 hover:text-white">Home</Link>
           <Link to="#features" className="text-gray-400 hover:text-white">Features</Link>
           <Link to="#faq" className="text-gray-400 hover:text-white">Contact</Link>
-          <a href="https://promptsql.streamlit.app/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">App</a>
+          {/* <a href="https://prompt2sql.vercel.app/app" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">App</a> */}
+
+          <Link to="/app" className="text-gray-400 hover:text-white">App</Link>
         </div>
 
         {/* Social Media Icons */}
