@@ -22,7 +22,7 @@ export default function Hero() {
         />
       </h2>
       <p className="mb-8 text-lg max-w-xl">
-        Our SaaS tool helps you generate and run SQL queries on any database — fast, smart, and easy.
+        Our AI tool helps you to generate and run SQL queries on any database — fast, smart, and easy.
       </p>
       <Link
         to="/app"
