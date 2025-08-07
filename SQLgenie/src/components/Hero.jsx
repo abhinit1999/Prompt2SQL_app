@@ -21,9 +21,15 @@ export default function Hero() {
           delaySpeed={1000}
         />
       </h2>
-      <p className="mb-8 text-lg max-w-xl">
+      {/* <p className="mb-8 text-lg max-w-xl">
         Our AI tool helps you to generate and run SQL queries on any database — fast, smart, and easy.
-      </p>
+      </p> */}
+      <p className="mb-8 text-lg max-w-xl">
+  Our <span className="text-2xl font-bold text-yellow-400">AI</span> tool helps you to generate and run SQL queries on any database — fast, smart, and easy.
+</p>
+
+
+
       <Link
         to="/app"
         className="bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition"
