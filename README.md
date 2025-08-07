@@ -1,4 +1,4 @@
-# Propmt2SQL App
+# Prompt2SQL App
 
 Convert natural language into SQL queries using LLMs like Mixtral via Groq and LangChain.  
 Frontend in React, backend in FastAPI.
