@@ -19,7 +19,7 @@ Frontend in React, backend in FastAPI.
 ## Backend
 
 - FastAPI + LangChain + Groq + SQLite
-- Hosted at: [https://promptsql.streamlit.app](https://promptsql.streamlit.app) *(if this is your Streamlit test)*
+- Hosted at: [https://promptsql.streamlit.app](https://promptsql.streamlit.app)
 
 ## Local Development
 
