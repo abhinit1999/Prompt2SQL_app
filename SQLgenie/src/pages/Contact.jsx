@@ -169,7 +169,7 @@ export default function ContactForm() {
     setStatus('Sending...');
 
     try {
-      await fetch('https://script.google.com/macros/s/AKfycbznUsk_Po1MKRBrkQE5fyF1Myti24YvGj7ds2_eSOsxeQUMo_PTnF7kKHGNMTAkkOPsdA/exec', {
+      await fetch('https://script.google.com/macros/s/AKfycbx-Khu3iMH9v0XKci_sQg7TwnUuFiSmTZRc623YW6gor7YP_DRM87kBhUWCL2j6uICpwg/exec', {
         method: 'POST',
         mode: 'no-cors',
         headers: {
