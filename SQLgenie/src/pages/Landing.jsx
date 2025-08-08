@@ -24,9 +24,9 @@ export default function Landing() {
       <Pricing />
       <FAQ />
       <Newsletter />
-      <ContactForm />
+      {/* <ContactForm /> */}
       <CTA />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

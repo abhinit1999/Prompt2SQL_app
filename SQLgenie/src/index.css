@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+}
+
+.text-gold-400 {
+  color: #fbbf24;
+}
+
+.border-gold-500 {
+  border-color: #f59e0b;
+}
+
+.bg-gold-400 {
+  background-color: #fbbf24;
+}
+
+.bg-gold-500 {
+  background-color: #f59e0b;
+}
+
+.text-gold-300 {
+  color: #fcd34d;
+}

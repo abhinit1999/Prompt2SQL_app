@@ -5,7 +5,14 @@ export default function Navbar() {
     <nav className="bg-white dark:bg-gray-900 shadow-md fixed w-full top-0 z-50 bg-white bg-white">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <div className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">
+
+
+         <Link 
+          to="/" 
+          className="text-2xl font-bold text-indigo-600 dark:text-indigo-400"
+        >
           Prompt2SQL
+        </Link>
         </div>
         <div className="flex items-center space-x-4">
           <a href="#pricing" className="text-gray-700 dark:text-white hover:text-indigo-600">Pricing</a>

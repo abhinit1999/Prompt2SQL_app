@@ -17,6 +17,7 @@ app = FastAPI(title="Prompt2SQL API", version="0.1.0")
 # CORS settings
 origins = [
     "http://localhost:3000",
+    "http://localhost:5173",
     "https://prompt2sql.vercel.app/",            # React local dev
     "http://localhost:8501",            # Streamlit local dev
     "https://prompt2sql.vercel.app",    # Deployed frontend
