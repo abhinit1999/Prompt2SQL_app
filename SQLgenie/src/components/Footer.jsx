@@ -64,6 +64,7 @@ import {
   FaLinkedin,
   FaInstagram,
   FaFacebook,
+  FaTwitter,
 } from "react-icons/fa";
 import { MdEmail, MdLocationOn, MdEvent, MdKeyboardArrowUp } from "react-icons/md";
 
@@ -154,11 +155,12 @@ export default function Footer() {
           <div className="border-t border-gray-700 mt-8"></div>
           <div className="flex items-center justify-between mt-4 pb-6">
             <div className="flex items-center gap-4 text-lg text-gray-200">
-              <a href="#" aria-label="YouTube" className="p-2 hover:text-white"><FaYoutube /></a>
+              {/* <a href="#" aria-label="YouTube" className="p-2 hover:text-white"><FaYoutube /></a> */}
               <a href="#" aria-label="LinkedIn" className="p-2 hover:text-white"><FaLinkedin /></a>
-              <a href="#" aria-label="Instagram" className="p-2 hover:text-white"><FaInstagram /></a>
-              <a href="#" aria-label="Facebook" className="p-2 hover:text-white"><FaFacebook /></a>
+              <a href="#" aria-label="Twitter" className="p-2 hover:text-white"><FaTwitter /></a>
+              {/* <a href="#" aria-label="Facebook" className="p-2 hover:text-white"><FaFacebook /></a> */}
             </div>
+            <div>Designed and developed by Abhinit.</div>
             <div className="text-gray-300 text-sm">
               © {new Date().getFullYear()} Prompt2SQL. All rights reserved.
             </div>
