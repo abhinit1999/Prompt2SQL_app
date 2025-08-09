@@ -3,7 +3,7 @@
 Convert natural language into SQL queries using LLMs like Mixtral via Groq and LangChain.  
 Frontend in React, backend in FastAPI.
 
-## Features
+## Featuress
 
 - Natural Language to SQL converter
 - LangChain & Groq integration
