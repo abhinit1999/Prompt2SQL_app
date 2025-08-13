@@ -14,7 +14,7 @@ export default function Pricing() {
             </p>
             <p className="text-2xl font-bold mb-4">
               {tier === 'Free' && '₹0/mo'}
-              {tier === 'Pro' && '₹6999/mo'}
+              {tier === 'Pro' && '₹31999/mo'}
               {tier === 'Enterprise' && 'Contact Us'}
             </p>
             <button className="bg-indigo-600 text-white px-4 py-2 rounded-full w-full hover:bg-indigo-700">
