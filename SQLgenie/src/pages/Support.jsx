@@ -82,7 +82,7 @@ const SupportPage = () => {
             and feature announcements.
           </p>
           <a
-            href="https://github.com/your-repo"
+            href="https://github.com/abhinit1999
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 hover:underline"
